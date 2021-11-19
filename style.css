@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style-type:none ;
+    box-sizing: border-box;
+}
+#block-page{
+
+width: 1263px;
+margin: auto;
+
+
+}
+.menu{
+    
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: auto;
+}
+nav{
+    background-color:#1D1D1D ;
+    height: 130px;
+    width: 100%;
+
+}
+body{
+    font-family: 'Ropa Sans', sans-serif;}
+.item a {
+    color:rgb(255, 255, 255);
+    
+    
+    
+}
+.menu li{
+    padding: 20px;
+    
+    
+}
+.logo  {
+    font-size: 100px;
+    width: 30px;
+    height: 30px;
+    
+}
+.menu li{
+    margin-bottom: 100px;
+}
+.menu li a {
+    font-size: 20px;
+}
+.buttons{
+    float: right;
+    margin-left: 200px;
+}
+#btn{
+    padding: 10px;
+    margin-top: 12px;
+    border-radius: 10px;
+    border: solid #FDC500;
+    background-color: #fdc60000;
+    cursor: pointer;
+    font-family: 'Ropa Sans', sans-serif;    
+}
+#btn a  {
+    color: white;
+
+}
+#btn:hover {
+    background-color:#FDC500;
+    transition: all ease-in 0.3s;
+    
+}
+#btn2:hover {
+    background-color: #1D1D1D;
+    transition :all ease-in 0.3s
+
+}
+#btn2{
+    padding: 10px;
+    margin-top: 12px;
+    border-radius: 10px;
+    border: solid #FDC500;
+    background-color: #FDC500;
+    cursor: pointer;
+    font-family: 'Ropa Sans', sans-serif;
+}
+#btn2 a{
+    color: white;
+}
+#herobanner {
+    width: 100%;
+    /* position: relative; */
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+    
+.title h1 {
+    position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Ropa Sans', sans-serif;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  line-height: 1.8;
+  font-size: 40px;
+}
+.title h1{
+    text-align: center;   
+}
+span{
+    color: #FDC500;
+}
+.subtitle h4 {
+    position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Ropa Sans', sans-serif;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  line-height: 1.8;
+  font-size: 20px;
+}
+    
+
